@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r'C:\Users\HP\Desktop\EL all\Python EL\case_time_series.csv')
+data = pd.read_csv(r'C:\Users\HP\Desktop\EL all\Python EL\case_time_series.csv') #Add file Path
 
 Y = data.iloc[61:,1].values
 R = data.iloc[61:,3].values
